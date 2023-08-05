@@ -13,11 +13,11 @@ export default function Footer() {
         2023-present &#169;{" "}
         <a
           className="text-green-500 hover:text-zinc-200 duration-300 underline decoration-dotted underline-offset-4"
-          href="https://github.com/neolawz"
+          href="https://github.com/carTloyal123"
           target={"_blank"}
           rel="noreferrer"
         >
-          neolawz
+          carTloyal123
         </a>
       </p>
     </footer>

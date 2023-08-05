@@ -34,7 +34,7 @@ export default function RecentBlogs(props: { recentBlogs: RecentBlogs }) {
         ))}
       </div>
       <a
-        href="https://dev.to/neolawz"
+        href="https://dev.to/carTloyal123"
         target="_blank"
         rel="noreferrer"
         className="group flex cursor-pointer items-center gap-2 text-zinc-500 no-underline duration-200 hover:text-zinc-700 dark:hover:text-zinc-400"

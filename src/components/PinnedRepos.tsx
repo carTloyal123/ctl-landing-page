@@ -5,7 +5,7 @@ export default function PinnedRepos(props: { pinnedRepos: PinnedRepos }) {
   return (
     <section className="prose prose-a:no-underline mb-10 flex w-full flex-col gap-6 z-10">
       <h2
-        className="m-0 text-[2.5rem] font-extrabold leading-none text-zinc-200"
+        className="m-0 text-[2.5rem] font-extrabold leading-none text-purple"
         id="projects"
       >
         My Projects
@@ -38,7 +38,7 @@ export default function PinnedRepos(props: { pinnedRepos: PinnedRepos }) {
         ))}
       </div>
       <a
-        href="https://github.com/neolawz?tab=repositories"
+        href="https://github.com/carTloyal123?tab=repositories"
         target="_blank"
         rel="noreferrer"
         className="group flex cursor-pointer items-center gap-2 text-zinc-500 no-underline duration-200 hover:text-zinc-700 dark:hover:text-zinc-400 "

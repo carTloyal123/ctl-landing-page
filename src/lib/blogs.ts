@@ -2,7 +2,7 @@
 import axios from "axios";
 
 export async function getBlogs() {
-  const res = await axios.get("https://dev.to/api/articles?username=neolawz");
+  const res = await axios.get("https://dev.to/api/articles?username=carTloyal123");
 
   const blogs = res.data.slice(0, 3);
 

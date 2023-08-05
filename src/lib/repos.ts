@@ -3,7 +3,7 @@
 import axios from "axios";
 
 export async function getPinnedRepos() {
-  const res = await axios.get("https://ghpr.asrvd.me/neolawz");
+  const res = await axios.get("https://ghpr.asrvd.me/carTloyal123");
   console.log(res.data);
   const repos = res.data;
 

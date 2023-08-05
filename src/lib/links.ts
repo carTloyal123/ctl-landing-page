@@ -27,25 +27,25 @@ export const links: Links = [
   {
     name: "Discord",
     url: "https://discord.com/users/491731032106860544",
-    value: "neolawz#4185",
+    value: "carTloyal123#4185",
     icon: SiDiscord,
   },
   {
     name: "GitHub",
-    url: "https://github.com/neolawz",
-    value: "@neolawz",
+    url: "https://github.com/carTloyal123",
+    value: "@carTloyal123",
     icon: SiGithub,
   },
   {
     name: "Twitter",
     url: "https://twitter.com/eywa_eth",
-    value: "@neolawz",
+    value: "@carTloyal123",
     icon: SiTwitter,
   },
   {
     name: "Dev.to",
-    url: "https://dev.to/neolawz",
-    value: "@neolawz",
+    url: "https://dev.to/carTloyal123",
+    value: "@carTloyal123",
     icon: SiDevdotto,
   },
 ];

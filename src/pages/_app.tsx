@@ -29,12 +29,12 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   const [loading, setLoading] = useState(false);
 
   // when i do not have a set timeout function, the loader will not go away
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000);
+  // }, []);
 
   return (
     <>

@@ -4,8 +4,6 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import NavBar from "./Nav";
 import MobileNavBar from "./MobileNav";
-//import { useEffect, useRef } from "react";
-// import { loadCursor } from "../lib/cursor";
 
 export default function Layout({
   children,
@@ -20,30 +18,21 @@ export default function Layout({
   image?: string;
 }) {
   const currentRoute = useRouter().pathname;
-  // const ballRef = useRef<HTMLDivElement>(null);
-  // useEffect(() => {
-  //   if (typeof window === "undefined" || !ballRef.current) {
-  //     return;
-  //   }
-
-  //   return loadCursor(ballRef.current);
-  // }, []);
-
   return (
     <div>
       <Head>
         <link rel="icon" href={`https://fmj.asrvd.me/${emoji}`}></link>
         <title>
           {currentRoute === "/"
-            ? "Nathaniel // Software Engineer"
-            : `Law // ${currentRoute.slice(1)}`}
+            ? "Carson // Software Engineer"
+            : `Loyal // ${currentRoute.slice(1)}`}
         </title>
         <meta name="description" content={description} />
         <meta name="theme-color" content="#121212" />
-        <meta property="og:site_name" content="Nathaniel" />
+        <meta property="og:site_name" content="Carson" />
         <meta
           property="og:title"
-          content={`neolawz${
+          content={`carTloyal123${
             currentRoute.slice(1).length > 1
               ? ` // ${currentRoute.slice(1)}`
               : ``
@@ -53,7 +42,7 @@ export default function Layout({
         <meta property="og:description" content={description} />
         <meta
           property="twitter:title"
-          content={`nlaw${
+          content={`Loyal${
             currentRoute.slice(1).length > 1
               ? ` // ${currentRoute.slice(1)}`
               : ``
@@ -62,7 +51,7 @@ export default function Layout({
         <meta property="twitter:description" content={description} />
         <meta
           property="og:image"
-          content="https://nlaw.dev/img/ogimg.jpg"
+          content="https://Loyal.dev/img/ogimg.jpg"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@eywa_eth" />

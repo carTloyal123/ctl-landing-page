@@ -31,11 +31,11 @@ const NavbarItems = [
     slug: "/links",
     icon: FiPaperclip,
   },
-  {
-    name: "All-knowing Friend",
-    slug: "/chat",
-    icon: GiBrain,
-  },
+  // {
+  //   name: "All-knowing Friend",
+  //   slug: "/chat",
+  //   icon: GiBrain,
+  // },
 ];
 
 export default function NavBar({ path }: { path: string }) {
