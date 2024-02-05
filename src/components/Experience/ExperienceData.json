@@ -1,0 +1,64 @@
+{
+    "header": [
+        "I have 6 years of proffessional experience and this page outlines some of my work and personal projects in the field."
+    ],
+
+    "experience": [
+        {
+            "company": "Trimble",
+            "role": "Simulation Software Engineer",
+            "duration": "Since September 2022",
+            "description": "Lead the planning and execution of a new robotic platform integration. Developed and delivered new robotic platform in production simulation environment including software interfaces for external use (C++/C#/Python). Lead the design, development and implementation of a novel parallel computing terrain coverage application focused on performance, accuracy and robustness. Achieved 0.01 meter level accuracy of 900 square meter area in 16ms computation time.",
+            "techStack": "C#, Unity, Python, C++",
+            "url": "https://www.trimble.com/"
+        },
+        {
+            "company": "Simulation Lead and Research Assistant",
+            "role": "Systems Engineer",
+            "duration": "May 2021 - December 2023",
+            "description": "As a research Assistant at Auburn University I had the chance to work on various projects. My main role was leading the simulation software development for the autonomous racing team in the GPS and Vehicle Dynamics Lab. This role had me designing, developing and implementing a full vehicle simulation that matched the racing dynamics of the real vehicle. I integrated ROS2 based interfaces as well as a bridge for the simulator to communicate with the external autonomous driving stack.",
+            "techStack": "C++, ROS2, Unity",
+            "url": "https://gavlab.auburn.edu/"
+        }
+    ],
+
+    "projects": {
+        "text": "Projects are a great way to explore new topics and learn new skills. Here are the ones that I have created.",
+        "list": [
+            {
+                "name": "Bolt Companion",
+                "description": "This apple watch was created as a compaion for the popular Bolt (https://apps.apple.com/us/app/bolt-workout-strength-log/) app. The app is a workout companion that lets you track your workouts and see your progress. The app is built using Swift, SwiftUI, and Firebase for live data updates.",
+                "techStack": "Swift, SwiftUI, Firebase, WatchKit",
+                "links": [
+                    
+                ]
+            },
+            {
+                "name": "CTL Landing Page (This website!)",
+                "description": "This Next.js website holds the website source code you are currently looking at. This is one of the first full stack applications I have built and I am proud that I could learn a new ecosystem and put it to use.",
+                "techStack": "React.js, Next.js, Tailwind CSS, Vercel",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "svg": "GitHub",
+                        "url": "https://github.com/carTloyal123/ctl-landing-page"
+                    }
+                ]
+            },
+            {
+                "name": "Cryze",
+                "description": "A passion project that I started to break down the barriers of smart home monitoring particularly for Wyze Gwell based camers. This project lets you access the raw video feeds of your Wyze Gwell based cameras like the Wyze Video Doorbell Pro and the Wyze Cam OG. There is no other way to pipe your video stream from Gwell based cameras to other non-Wyze platforms and this project aims to solve that.",
+                "techStack": "Java, Kotlin, Python, Websockets, Android, C++",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "svg": "GitHub",
+                        "url": "https://github.com/carTloyal123/cryze"
+                    }
+                ]
+            }
+        ]
+    },
+
+    "codingProfiles": "I am active on various coding platforms and I love to solve problems and learn new things. Here are some of the platforms where you can find me."
+}

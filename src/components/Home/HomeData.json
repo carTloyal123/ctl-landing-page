@@ -1,0 +1,52 @@
+{
+    "header": [
+        "Hi! 👋 I’m Carson! I'm a Software Engineer.",
+
+        "I have been writing software for 8 years. I started writing code with the introduction of Swift in 2014 and never looked back. I went on to study Mechanical Eningeering and used MATLAB extensively for modeling and simulation. My post-graduate studies led me to C++/Python with programming of autonomous vehicles in path planning, localization, and controls. My proffessional experience has centered around C# and the Unity game engine as well as C++ under the ROS robotics framework. Outside of work, I have explored Java and Kotlin as well as Javacript and Typescript for home automation, reverse engineering, and backend development.",
+
+        "I like solving problems that make people's lives better and more efficient. I am passionate about learning new technologies and sharing my knowledge with others. I am always looking for new opportunities to learn and grow."
+    ],
+
+    "technologies": {
+        "list": [
+            {
+                "name": "Swift ",
+                "description": ": Go to language for iOS development",
+                "url": "https://swift.org/"
+            },
+            {
+                "name": "C++ ",
+                "description": ": All purpose language for low level computing",
+                "url": "https://cplusplus.com/"
+            },
+            {
+                "name": "Python ",
+                "description": ": All purpose language for high level application building and scripting",
+                "url": "https://python.org/"
+            },
+            {
+                "name": "C# ",
+                "description": ": Go to language for .NET projects and Unity game development",
+                "url": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+            },
+            {
+                "name": "ROS/ROS2 ",
+                "description": ": Robotics Operating System used in autonomous vehicle development",
+                "url": "https://docs.ros.org/"
+            },
+            {
+                "name": "React.js ",
+                "description": ": My go to library for single-page applications",
+                "url": "https://reactjs.org/"
+            },
+            {
+                "name": "Next.js ",
+                "description": ": Learned for making this website!",
+                "url": "https://nextjs.org/"
+            }
+        ],
+        "text": "... and a lot more to get the work done."
+    },
+
+    "connectMeText": "Feel free to reach out to me on any of these"
+}
