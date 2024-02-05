@@ -1,6 +1,8 @@
 import { CSSProperties, FC, ReactElement, useState, useEffect } from "react";
 import SVG from "@public/Assets/SVG";
 import classes from "./ThemeToggle.module.css";
+import MoonSVG from "@public/Assets/moon.svg";
+import SunSVG from "@public/Assets/sun.svg";
 
 type Props = {
     style?: CSSProperties,
@@ -62,8 +64,8 @@ export const ThemeToggle: FC<Props> = ({style, className}): ReactElement => {
               <div onClick={handleToggle}>
                   {
                     isDarkTheme ? 
-                    <SVG.Moon className={classes.moonIcon}/> : 
-                    (isDarkTheme === false) && <SVG.Sun className={classes.sunIcon}/>
+                    <MoonSVG className={classes.moonIcon}/> : 
+                    (isDarkTheme === false) && <SunSVG className={classes.sunIcon}/>
                   }
               </div>
             </div>

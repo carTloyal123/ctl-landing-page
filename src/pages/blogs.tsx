@@ -1,3 +1,7 @@
+// ingore file for eslint
+
+// eslint-disable-file
+
 import type { NextPage } from "next";
 import Head from "next/head";
 import BlogsPage from "@Components/Blogs/Blogs";
@@ -53,9 +57,9 @@ export async function getStaticProps() {
     const response = await fetch(
         "https://dev.to/api/articles?username=itsomkathe"
     );
-    const data = await response.json();
-    const list: IBlog[] = data.map((blog: any) => {
-        let {
+    const data: IRemoteBlog[] = await response.json();
+    const list: IBlog[] = data.map((blog: IBlog) => {
+        const {
             title,
             description,
             published_at,

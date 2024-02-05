@@ -13,7 +13,7 @@ import classes from "./Home.module.css";
 import data from "./HomeData.json";
 
 export const Home = (): ReactElement => {
-    const header: String[] = data.header;
+    const header: string[] = data.header;
     const techList: Technology[] = data.technologies.list;
 
     return (

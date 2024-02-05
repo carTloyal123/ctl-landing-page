@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from "react";
+import React, { FC, FunctionComponent, ReactElement } from "react";
 import { LinkTo } from "@Components/Common/LinkTo/LinkTo";
 import classes from "./SocialLinks.module.css";
 import SVG from "@public/Assets/SVG";
@@ -16,7 +16,7 @@ export const SocialLinks: FC<SocialLinksProps> = ({
             >
                 {links.map((link, index) => (
                     <li className={classes.listItem} key={index}>
-                        {link.svg && React.createElement(SVG[link.svg])}
+                        {link.svg && React.createElement(SVG[link.svg] as FunctionComponent)}
                         <LinkTo
                             className={classes.link}
                             href={link.url}

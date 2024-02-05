@@ -1,6 +1,7 @@
 import { FC, CSSProperties, ReactElement } from "react";
-import SVG from "@public/Assets/SVG";
 import classes from "./LinkTo.module.css";
+import TopRightSVG from "@public/Assets/top-right.svg";
+
 
 type Props = {
     children: ReactElement | string;
@@ -32,7 +33,7 @@ export const LinkTo: FC<Props> = ({
                     isActive ? classes.linkWrapperActive : classes.linkWrapper
                 } ${className}`}
             >
-                <span>{children} {isArrow && <SVG.TopRight />}</span>
+                <span>{children} {isArrow && <TopRightSVG />}</span>
             </a>
         </>
     );
