@@ -7,6 +7,11 @@
  * need to use are documented accordingly near the end.
  */
 
+import { initTRPC } from "@trpc/server";
+import { type CreateNextContextOptions } from "@trpc/server/adapters/next";
+import superjson from "superjson";
+import { ZodError } from "zod";
+
 /**
  * 1. CONTEXT
  *
@@ -14,9 +19,6 @@
  *
  * These allow you to access things when processing a request, like the database, the session, etc.
  */
-import { type CreateNextContextOptions } from "@trpc/server/adapters/next";
-
-import { prisma } from "~/server/db";
 
 type CreateContextOptions = Record<string, never>;
 
@@ -31,9 +33,7 @@ type CreateContextOptions = Record<string, never>;
  * @see https://create.t3.gg/en/usage/trpc#-serverapitrpcts
  */
 const createInnerTRPCContext = (_opts: CreateContextOptions) => {
-  return {
-    prisma,
-  };
+  return {};
 };
 
 /**
@@ -53,9 +53,6 @@ export const createTRPCContext = (_opts: CreateNextContextOptions) => {
  * ZodErrors so that you get typesafety on the frontend if your procedure fails due to validation
  * errors on the backend.
  */
-import { initTRPC } from "@trpc/server";
-import superjson from "superjson";
-import { ZodError } from "zod";
 
 const t = initTRPC.context<typeof createTRPCContext>().create({
   transformer: superjson,
