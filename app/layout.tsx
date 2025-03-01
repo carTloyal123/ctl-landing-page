@@ -1,16 +1,12 @@
 import type React from "react"
-import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import { siteMetadata } from "./metadata"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
-  title: "Carson Loyal - Software Engineer",
-  description: "Portfolio of Carson Loyal, a software engineer specializing in autonomous systems and GNSS technology.",
-    generator: 'v0.dev'
-}
+export const metadata = siteMetadata
 
 export default function RootLayout({
   children,
@@ -19,6 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
@@ -27,7 +29,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
